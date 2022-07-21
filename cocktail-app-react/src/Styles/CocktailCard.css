@@ -1,0 +1,28 @@
+.card{
+    /* background-color: pink; */
+    padding: 10px;
+    
+    /* margin: 5px; */
+    /* margin-bottom: 20px; */
+    height: 100%;
+    /* background-color: var(--third-color); */
+
+    background-color: var(--secondary-background);
+    border: 2px solid var(--third-color);
+    
+}
+.link{
+    text-decoration: none;
+}
+
+
+.card:hover{
+    /* background-color: var(--secondary-background);
+    border: 5px solid var(--third-color); */
+    background-color: var(--third-color);
+}
+
+.cocktail-card-btn{
+    margin-bottom: 15px !important;
+    /* margin-top: 0px !important; */
+}
