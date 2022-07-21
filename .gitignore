@@ -1,3 +1,2 @@
 .env
-cocktail-app-react/node-modules/
-express-server/node-modules/
+node_modules
