@@ -27,7 +27,8 @@ const CocktailDetails = () => {
     return (
         <div>
             {cocktail &&
-                <div className="cocktail-details">
+                <div className=" list-container">
+                    <div className=" list-cocktails cocktail-details">
                     <div className="cocktail-image">
                     
                         {cocktail.strDrinkThumb &&
@@ -214,7 +215,7 @@ const CocktailDetails = () => {
                         
                     </div>
 
-                    
+                    </div>
                 </div>
             }
         </div>

@@ -53,7 +53,7 @@ const Navbar = () => {
                         Home
                     </Link>
                 </li>
-                <li className='link'> <a href = "/about">About</a></li>
+                {/* <li className='link'> <a href = "/about">About</a></li> */}
                 <li onMouseEnter = {onMouseEnterCategory}
                     onMouseLeave = {onMouseLeaveCategory}
                     className='link dropdown' >

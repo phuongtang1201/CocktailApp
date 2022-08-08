@@ -243,9 +243,20 @@
   color: var(--primary-color);
 }
 
+.cocktail-details{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
 .img-thumbnail{
-  max-width: 100%;
-  max-height: 100%;
+  width: 40%;
+  height: 10%;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
 }
 .img-thumbnail1{
@@ -256,14 +267,17 @@
 .cocktail-details .cocktailTitle{
   font-size: 2rem;
   padding: 15px 0;
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 
-.cocktail-subtitle{
-  font-size: 1rem;
+.cocktail-details .cocktail-subtitle{
+  font-size: 1.2rem;
   color: var(--primary-color);
   padding-top: 10px;
   padding-bottom: 0px;
+  font-weight: 600;
 }
 
 
