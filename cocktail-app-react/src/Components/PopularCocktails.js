@@ -10,16 +10,16 @@ const PopularCocktails = () => {
 
 
     //real API Call
-    // useEffect(() =>{
-    //     getPopularList().then(response => {
-    //     setCocktails(response);
-    //     });
-    // },[])
+    useEffect(() =>{
+        getPopularList().then(response => {
+        setCocktails(response);
+        });
+    },[])
 
     //Mock data
-    useEffect(()=>{
-        setCocktails(popularItems);
-    },[])
+    // useEffect(()=>{
+    //     setCocktails(popularItems);
+    // },[])
     
     return ( 
         <div className="list-container">
