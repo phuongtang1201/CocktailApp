@@ -4,5 +4,5 @@ Users can sign in into their accounts and manage their own favorite list.
 
 User Features:
 Create account and manage user profile.
-Sign in to manage favorite list (save or remove cocktails to the favorite lsit).
+Sign in to manage favorite list (save or remove cocktails to the favorite list).
 
